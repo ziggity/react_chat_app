@@ -1,0 +1,36 @@
+.chat {
+    height: 300px;
+    width: 450px;
+    border: 1px solid blue;
+    overflow: auto;
+    display: inline-block;
+}
+
+li {
+    list-style: none;
+    position: relative;
+    left: -25px;
+}
+
+.user-list{
+    width: 150px;
+    height: 300px;
+    border: 1px solid blue;
+    display: inline-block;
+    position: absolute;
+    overflow: auto;
+}
+
+#message {
+    width: 596px;
+    position: relative;
+    bottom: 10px;
+    height: 30px;
+}
+
+#send {
+    position: relative;
+    height: 30px;
+    bottom: 10px;
+}
+
